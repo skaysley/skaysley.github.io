@@ -1,0 +1,147 @@
+
+
+body 
+  {background-color: #cfa5b2
+     ;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;}
+  @keyframes fadeIn {
+  to {
+    opacity: 1;
+  }}
+
+ p
+  {color: #b02750;
+text-align:center;
+font-size: 48px}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#logo 
+{text-align:right;
+outline-width: 2px;
+outline-color: azure;
+outline-style: solid;}
+img {
+  display: block;
+  margin: 0 auto;
+}
+f
+   { color: #7e1434;
+   font-size: 32px;
+  display: flex;
+ text-align: right;  
+  gap: 20px; }
+
+ ul
+ {
+   font-size: 40px;
+  text-align:center;
+color: #b02750;}
+h1 
+{color: #f51155;}
+#love
+{font-size: 26px;
+color: #f51155;
+text-align: center;
+}
+#galery
+{
+  display: flex;
+  gap: 10px; /* расстояние между фото */
+  /* можно добавить выравнивание */
+  justify-content: center; /* или center,flex-start */
+
+ 
+  max-width: 300px; /* или нужный размер */
+  height: auto;
+}
+#galery2
+{
+  display: flex;
+  gap: 10px; /* расстояние между фото */
+  /* можно добавить выравнивание */
+  justify-content:flex-start; /* или center,flex-start */
+
+ 
+  max-width: 300px; /* или нужный размер */
+  height: auto;
+}
+#galery3
+{
+  display: flex;
+  gap: 10px; /* расстояние между фото */
+  /* можно добавить выравнивание */
+  justify-content: flex-start; /* или center,flex-start */
+
+ 
+  max-width: 300px; /* или нужный размер */
+  height: auto;
+}
+#galery4
+{
+  display: flex;
+  gap: 10px; /* расстояние между фото */
+  /* можно добавить выравнивание */
+  justify-content:flex-start; /* или center,flex-start */
+
+ 
+  max-width: 300px; /* или нужный размер */
+  height: auto;
+  
+}
+#we
+{display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #7e1434;
+  font-size:26px;
+}
+#rabb {align-items: flex-end;}
+#galery,
+#galery2,
+#galery3,
+#galery4 {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* центрируем фото */
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto; /* центрируем блок сами */
+}
+.img-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.img-wrapper img {
+  width: 300px;
+  display: block;
+}
+
+.img-wrapper span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#cfa5b2 ;
+  color:#f51155;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  pointer-events: none;
+}
+
+.img-wrapper:hover span {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
