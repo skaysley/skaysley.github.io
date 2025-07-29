@@ -145,3 +145,15 @@ text-align: center;
   visibility: visible;
   pointer-events: auto;
 }
+
+#ss {text-align: center;}
+
+#aass {float: left;
+text-align: start;
+font-size: 30px;
+color: #f51155;
+outline-style: dashed;
+outline-width: 5px;
+outline-color: #7e1434;}
+ body {
+     padding-bottom: 900px; }
